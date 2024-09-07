@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: updatecache
       env:
-        TOKEN: ${{ secrets.93AH_SECRET }}
+        TOKEN: ${{ secrets.UPDATE_SECRET }}
       run: |
         # 构建 URL
         URL="https://saltwood.top:9393/93AtHome/update_files?token=$TOKEN"
